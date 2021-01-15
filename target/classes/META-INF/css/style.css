@@ -1,0 +1,510 @@
+/*trang chá»§*/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12px;
+}
+/*header-top*/
+.header-top{
+	height: 40px;
+	background: #000000;
+	position: relative;
+	display: flex;
+}
+.call1{
+	position: absolute;
+	display: flex;
+	margin-left: 100px;
+}
+.call1 a{
+	color: white;
+	margin-top: 8px;
+	margin-left: 6px;
+	text-decoration: none;
+}
+.call1 a b{
+	font-size: 14px;
+}
+.email1{
+   position: absolute;
+   margin-left: 280px;
+   margin-top: 8px;
+}
+.email1 span{
+	width: 180px;
+	color: white;
+}
+.info1{
+	position: absolute;
+	margin-left:800px;;
+	margin-top: 8px;
+}
+.info1 ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+}
+.info1 ul li{
+	border-right: 1px solid white;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.info1 ul li:last-child{
+    border-right: 0px;
+}
+.info1 ul li a{
+	text-decoration: none;
+	color: white;
+}
+/*header-top*/
+/*title*/
+.title1{
+	display: flex;
+}
+.title-1{
+	position: relative;
+	margin-top: 25px;
+	margin-left: 152px;
+}
+.title-1 #image-2{
+	position: absolute;
+    margin-left: 9px;
+}
+.title-1 span{
+	position: absolute;
+	color: #002aa4;
+	font-size: 13px;
+	margin-left: 9px;
+	margin-top: 35px;
+	width: 164px;
+}
+.title-2{
+	position: relative;
+    margin-left: 350px;
+    margin-top: 25px;
+    width: 410px;
+    height: 35px;
+    display: flex;
+}
+.title-2 .btn-danger{
+	margin-top:2px;
+    position:absolute;
+    margin-left:300px;
+}
+.title-2 #serch1{
+	margin-top: 3px;	
+	width:290px;
+	height:35px;
+	position: absolute;
+	border: 1px solid red;
+}
+
+
+.title-3{
+	position: relative;
+	width: 130px;
+	height: 39px;
+	background-color: #dd0000;
+	margin-top: 25px;
+	margin-left: 170px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+
+
+/*title*/
+.boder-line1{
+	border: 2px solid black;
+	width: 1114px;
+	margin-left: 153px;
+	margin-top: 22px;
+}
+/*menu*/
+.menu1{
+	/*width: 1114px;*/
+	/*margin-left: 153px;*/
+	display: flex;
+}
+.danh-muc{
+	position: relative;
+	width: 220px;
+	height: 42px;
+	margin-left: 153px;
+	background-color: black;
+	display: flex;
+}
+
+.danh-muc p{
+	position: absolute;
+	color: white;
+	margin-left: 15px;
+	margin-top:5px;
+	font-weight: bold;
+}
+.menu-ngang{
+	width: 893px;
+	height: 42px;
+	background-color: #e8e8e8;
+}
+.menu-ngang ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+}
+.menu-ngang ul li{
+	margin-left: 30px;
+	margin-top: 8px;
+	border-right: 1px solid #cecece;
+	padding-right: 30px;
+}
+.menu-ngang ul li:last-child{
+	border-right: 0px;
+}
+.menu-ngang ul li a{
+	display: flex;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.menu-ngang ul li a img{
+	margin-top: -5px;
+}
+/*menu*/
+/*danh muc left*/
+.danh-muc-left{
+	position: relative;
+	width: 218px;
+	height: 630px;
+	
+	margin-left: 150px;
+	margin-top: 5px;
+}
+.danh-muc-left ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.danh-muc-left ul li{
+    margin-top: 8px;
+}
+
+.danh-muc-left ul li a{
+	text-decoration: none;
+	color: black;
+	border: 1px solid #99FF99;
+}
+
+/*danh muc left*/
+.wrapper{
+	display: flex;
+}
+.danh-muc-main{
+	width: 850px;
+	height: 630px;
+	margin-top: 10px;
+	margin-left: 35px;
+	display: flex;
+	position: relative;
+}
+img.slide{
+	width: 850px;
+	height: 630px;
+}
+img.slide:not(:first-child){
+	display: none;
+}
+.danh-muc-next{
+	width: 850px;
+	height: 630px;
+	margin-top: 10px;
+	margin-left: 35px;
+	display: flex;
+	position: relative;
+}
+img.slide1{
+	width: 650px;
+	height: 630px;
+}
+img.slide1:not(:first-child){
+	display: none;
+}
+img.btn-change{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-100%);
+}
+#next {
+    right: 10px;;
+}
+
+#prev {
+    left: 10px;
+}
+.container{
+	width: 818px;
+	margin-left: 153px;
+}
+.tin-tuc{
+	position: relative;
+	width: 284px;
+	margin-left: 6px;
+	margin-top: 20px;
+}
+.tin-tuc .tin-khuyen-mai{
+    background-color: #365899;
+    width: 283px;
+    height: 35px;
+    position: absolute;
+}
+.sp-hot-title{
+	position: relative;
+    width: 145px;
+    height: 35px;
+    background-color: #d00306;
+    margin-top: 20px;
+}
+.sp-hot-title p{
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	margin-left: 25px;
+}
+.content2{
+	width: 283px;
+	margin-top: 50px;
+}
+.content2 ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.content2 ul li{
+    margin-top: 10px;
+    position: relative;
+}
+.content2 ul li a{
+	display: flex;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+.boder-line3{
+	width: 818px;
+	border: 1px solid black;
+}
+.sp1{
+	width: 405px;
+	height: 632px;
+	border: 1px solid #dddddd;
+	margin-top: 4px;
+}
+.sp1 img{
+	width: 400px;
+}
+a.noi-dung{
+	text-decoration: none;
+	color: black;
+}
+a.noi-dung p{
+    margin-left: 30px;
+    font-size: 16px;
+}
+span.noi-dung-1{
+	margin-top: -15px;
+	margin-left: 30px;
+	font-size: 14px;
+	height: 80px;
+	display: block;
+	white-space: pre-line;
+	line-height: 20px;
+}
+.sp0{
+
+	border: 1px solid #dddddd;
+	margin-top: 4px;
+}
+
+.sp2{
+	width: 250px;
+	height: 355px;
+	border: 1px solid #dddddd;
+	margin-top: 10px;
+}
+
+.lap-top-pk{
+	width: 1114px;
+    margin-top: 20px;
+    margin-left: 153px;
+}
+.sp-hot-title1{
+	position: relative;
+	width: 164px;
+    height: 35px;
+    background-color: #d00306;
+}
+.sp-hot-title1 p{
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+.boder-line4{
+	border: 1px solid black;
+}
+.mobile{
+	width: 1114px;
+    margin-top: 20px;
+}
+.may-tinh-dong-bo{
+	width: 1114px;
+    margin-top: 20px;
+}
+.may-tinh-choi-game{
+	width: 1114px;
+    margin-top: 20px;
+}
+.man-hinh{
+	width: 1114px;
+    margin-top: 20px;
+}
+.gaming{
+	width: 1114px;
+    margin-top: 20px;
+}
+/*trang chá»§*/
+.contentx{
+	margin-left: 153px;
+	display: flex;
+	position: relative;
+}
+.container1 a{
+	text-decoration: none;
+	text-align: center;
+}
+.box2{
+	position: relative;
+	margin-top: 10px;
+	width: 120px;
+	height: 30px;
+	background-color: #24aa98;
+	color: white;
+}
+.product{
+	position: relative;
+	width: 730px;
+	height: 122px;
+	background-color: #f9f9f9;
+	margin-top: 10px;
+}
+.product img{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.product input{
+	position: absolute;
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 620px;
+}
+
+.total{
+	width: 730px;
+	height: 60px;
+	background-color: #f9f9f9;
+	margin-top: 10px;
+	position: relative;
+}
+.khuyen-mai{
+	width: 730px;
+	height: 60px;
+	background-color: #f9f9f9;
+	margin-top: 10px;
+	position: relative;
+}
+.total1{
+	width: 730px;
+	height: 60px;
+	background-color: #f9f9f9;
+	margin-top: 10px;
+	position: relative;
+}
+.ma-code{
+	width: 730px;
+	height: 60px;
+	background-color: #f9f9f9;
+	margin-top: 10px;
+	position: relative;
+}
+.ma-code input{
+	height: 25px;
+}
+.thanh-toan{
+	width: 375px;
+	
+	border: 1px solid red;
+	position: absolute;
+	margin-left: 740px;
+	margin-top: 50px;
+}
+.btn-submit{
+	height: 100px;
+	background-color: #de0b00;
+	margin-top: 10px;
+}
+.btn-submit input{
+	width: 300px;
+	height:40px;
+	margin-top:10px;
+	margin-left:35px;
+	background-color: #de0b00;
+	color: white;
+	border: 1px solid #de0b00;
+	font-size: 20px
+}
+#note{
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+#note input{
+	margin-top: 10px;
+	width: 335px;
+	height: 30px;
+}
+#address{
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+#address input{
+	margin-top: 10px;
+	width: 335px;
+	height: 30px;
+}
+#email{
+	margin-left: 8px;margin-top: 10px;font-size: 14px;
+}
+#email input{
+	margin-top: 10px;width: 335px;height: 30px;
+}
+#phone{
+	margin-left: 8px;margin-top: 10px;font-size: 14px;
+}
+#phone input{
+	margin-top: 10px;width: 335px;height: 30px;
+}
+#name{
+	margin-left: 8px;margin-top: 10px;font-size: 14px;
+}
+#name input{
+	margin-top: 10px;width: 335px;height: 30px;
+}
+
